@@ -1,4 +1,8 @@
 <template>
-  <div class="bg-red-500">Layout</div>
-  <slot />
+  <div class="bg-green-500 h-screen">
+    <div class="border mx-[5vw] md:mx-[10vw] lg:mx-[25vw]">
+      <Navbar />
+      <slot />
+    </div>
+  </div>
 </template>
