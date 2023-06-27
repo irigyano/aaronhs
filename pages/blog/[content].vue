@@ -1,5 +1,5 @@
 <template>
-  <main class="prose max-w-full px-[5vw]">
+  <main class="prose max-w-full">
     <ContentDoc v-slot="{ doc }">
       <h1>{{ doc.title }}</h1>
       <h1>{{ doc.publishedAt }}</h1>

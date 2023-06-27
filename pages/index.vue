@@ -1,14 +1,19 @@
 <template>
   <ContentNavigation v-slot="{ navigation }">
-    <div v-for="link of navigation[0].children">
-      <NuxtLink
-        class="border border-gray-500 rounded-lg"
-        :key="link._path"
-        :to="link._path"
+    <main class="bg-blue-500 flex flex-col gap-2">
+      <div
+        class="border-4 border-[#C7CFE7] rounded-lg w-fit text-lg p-1"
+        v-for="link of navigation[0].children"
       >
-        {{ link.title }}
-        {{ link.publishedAt }}
-      </NuxtLink>
-    </div>
+        <span class="border">
+          {{ convertDateString(link.publishedAt) }}
+        </span>
+        <NuxtLink class="" :key="link._path" :to="link._path">
+          {{ link.title }}
+        </NuxtLink>
+      </div>
+    </main>
   </ContentNavigation>
 </template>
+
+<script setup />

@@ -1,3 +1,3 @@
 <template>
-  <div>Categories</div>
+  <div>Categories WIP</div>
 </template>
