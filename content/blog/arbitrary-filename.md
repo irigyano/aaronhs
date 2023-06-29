@@ -5,10 +5,6 @@ publishedAt: "27-06-2023"
 
 # Hey
 
-![Image](https://iconbug.com/data/be/256/6fadefda3815e783a1edcce61c6f5698.png)
-
-# Vulnus vulnera
-
 ## Quam abit somni
 
 Lorem markdownum loqui modo Icare curam numero, iaculis oculos, adunca: coepere
@@ -17,6 +13,8 @@ sereno lite: quis animas. [Probatum soror
 habenas](http://utripam.com/vates-memor) atque et
 [licet](http://www.quis.io/creditus.aspx) tum alios; succedere caeruleis
 Rhodopen. **Iacet inque**, constitit, iungit mea.
+
+![banner](../image/lc.png)
 
 Corniger convertit vulnera alios sepulta. **Quo qua** fune diversa hoc, quemque,
 exacta haesit monstri oblivia! Admissumque virent [diversa castique

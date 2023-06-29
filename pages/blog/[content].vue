@@ -1,9 +1,11 @@
 <template>
   <main class="max-w-full p-2">
     <ContentDoc v-slot="{ doc }">
-      <h1 class="text-3xl">{{ doc.title }}</h1>
-      <p class="text-sm">{{ convertDateString(doc.publishedAt) }}</p>
-      <article class="prose-base">
+      <h1 class="text-4xl font-semibold text-blue-500">{{ doc.title }}</h1>
+      <p class="text-sm opacity-30">
+        {{ convertDateString(doc.publishedAt) }}
+      </p>
+      <article class="prose-base prose-img:mx-auto">
         <ContentRenderer :value="doc" />
       </article>
     </ContentDoc>
