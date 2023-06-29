@@ -9,7 +9,11 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "google-fonts": ["Noto Sans"],
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };

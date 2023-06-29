@@ -1,6 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "@nuxtjs/google-fonts"],
+  googleFonts: {
+    families: {
+      "Noto Sans": true,
+      // "Noto Sans TC": true,
+      // "Noto Sans JP": true,
+    },
+  },
   content: {
     navigation: {
       fields: ["publishedAt"],
