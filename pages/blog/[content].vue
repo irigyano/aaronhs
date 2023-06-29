@@ -1,9 +1,11 @@
 <template>
-  <main class="prose max-w-full">
+  <main class="max-w-full p-2">
     <ContentDoc v-slot="{ doc }">
-      <h1>{{ doc.title }}</h1>
-      <h1>{{ doc.publishedAt }}</h1>
-      <ContentRenderer :value="doc" />
+      <h1 class="text-3xl">{{ doc.title }}</h1>
+      <p class="text-sm">{{ convertDateString(doc.publishedAt) }}</p>
+      <article class="prose-base">
+        <ContentRenderer :value="doc" />
+      </article>
     </ContentDoc>
   </main>
   <Giscus
@@ -18,12 +20,11 @@
     emitMetadata="0"
     inputPosition="top"
     theme="dark"
-    data-loading="lazy"
     lang="zh-TW"
     async
   />
 </template>
 
-<script setup lang="ts">
+<script setup>
 import Giscus from "@giscus/vue";
 </script>
