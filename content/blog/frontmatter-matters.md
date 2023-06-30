@@ -1,6 +1,6 @@
 ---
-title: filename
-publishedAt: "25-06-2023"
+title: filename matters only on routing
+publishedAt: June 30, 2023
 ---
 
-# You
+# Hello Blog

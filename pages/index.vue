@@ -6,7 +6,7 @@
           {{ link.title }}
         </NuxtLink>
         <div class="w-fit text-sm my-1">
-          {{ convertDateString(link.publishedAt) }}
+          {{ link.publishedAt }}
         </div>
       </div>
     </main>
