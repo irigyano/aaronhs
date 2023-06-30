@@ -3,8 +3,6 @@ title: title in frontmatters
 publishedAt: June 29, 2023
 ---
 
-# Hey
-
 ## Quam abit somni
 
 Lorem markdownum loqui modo Icare curam numero, iaculis oculos, adunca: coepere

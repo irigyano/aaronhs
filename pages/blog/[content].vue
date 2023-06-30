@@ -3,13 +3,13 @@
     <ContentDoc>
       <template v-slot="{ doc }">
         <h1 class="text-4xl font-semibold text-blue-500">{{ doc.title }}</h1>
-        <p class="text-sm opacity-30">
+        <p class="my-1 text-sm opacity-30">
           {{ doc.publishedAt }}
         </p>
         <article class="prose-base prose-pre:bg-black prose-img:mx-auto">
           <ContentRenderer :value="doc" />
         </article>
-        <section class="px-10">
+        <section>
           <Giscus
             host="https://giscus.app"
             id="comments"
@@ -21,7 +21,7 @@
             reactions-enabled="0"
             emitMetadata="0"
             inputPosition="top"
-            theme="dark"
+            theme="https://giscus.app/themes/custom_example.css"
             lang="zh-TW"
             async
           />

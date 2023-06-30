@@ -23,7 +23,7 @@
       "publishedAt: $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
       "---",
       "",
-      "# Hello Blog"
+      "## Hello Blog"
     ],
     "description": "Blog Frontmatter"
   }

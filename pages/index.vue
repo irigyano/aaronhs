@@ -1,11 +1,15 @@
 <template>
   <ContentNavigation v-slot="{ navigation }">
     <main class="flex flex-col gap-2 p-2">
-      <div class="text-3xl p-1" v-for="link of navigation[0].children">
-        <NuxtLink class="" :key="link._path" :to="link._path">
+      <div class="p-1" v-for="link of navigation[0].children">
+        <NuxtLink
+          class="text-4xl font-semibold text-blue-500"
+          :key="link._path"
+          :to="link._path"
+        >
           {{ link.title }}
         </NuxtLink>
-        <div class="w-fit text-sm my-1">
+        <div class="w-fit my-1 text-sm opacity-30">
           {{ link.publishedAt }}
         </div>
       </div>
