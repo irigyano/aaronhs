@@ -9,7 +9,7 @@
           {{ doc.publishedAt }}
         </p>
         <article
-          class="prose-base prose-pre:bg-black prose-img:mx-auto prose-img:rounded prose-pre:overflow-x-scroll"
+          class="prose-base prose-img:mx-auto prose-img:rounded prose-pre:bg-neutral-700 prose-pre:overflow-x-scroll"
         >
           <ContentRenderer :value="doc" />
         </article>

@@ -13,7 +13,7 @@ export default defineNuxtConfig({
       fields: ["publishedAt"],
     },
     highlight: {
-      theme: "github-dark",
+      theme: "monokai",
     },
   },
   css: ["~/assets/css/main.css"],

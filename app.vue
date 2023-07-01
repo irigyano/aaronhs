@@ -6,7 +6,7 @@
 
 <script setup>
 useHead({
-  htmlAttrs: { style: "scrollbar-gutter:stable" },
+  htmlAttrs: { style: "width: 100vw" },
   bodyAttrs: { class: "bg-white dark:bg-black text-black dark:text-white" },
 });
 </script>
