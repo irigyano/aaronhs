@@ -9,7 +9,7 @@
         )"
       >
         <NuxtLink
-          class="text-4xl font-semibold text-red-500 dark:text-blue-500"
+          class="text-4xl font-semibold text-red-500 dark:text-blue-500 hover:opacity-70 duration-300"
           :key="link._path"
           :to="link._path"
         >
