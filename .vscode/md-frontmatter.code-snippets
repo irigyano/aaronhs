@@ -3,11 +3,13 @@
     "prefix": "markdown frontmatter",
     "body": [
       "---",
-      "title: h1 | Aaron Hsieh",
+      "title: Hello h1",
       "publishedAt: $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
       "---",
       "",
-      "## Hello Blog"
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "",
+      "Perferendis doloremque eum asperiores quidem dicta,"
     ],
     "description": "Blog Frontmatter"
   }
