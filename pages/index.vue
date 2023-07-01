@@ -1,8 +1,7 @@
 <template>
   <ContentNavigation v-slot="{ navigation }">
-    <main class="animate-slide-in flex flex-col gap-2 p-2">
+    <main class="animate-slide-in flex flex-col gap-10 p-2">
       <div
-        class="p-1"
         v-for="link of navigation[0].children.sort(
           (blog1, blog2) =>
             new Date(blog2.publishedAt).getTime() -

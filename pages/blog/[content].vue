@@ -1,15 +1,17 @@
 <template>
-  <main class="max-w-full p-2">
+  <main class="animate-slide-in p-2">
     <ContentDoc>
       <template v-slot="{ doc }">
         <h1 class="text-4xl font-semibold text-blue-500">{{ doc.title }}</h1>
         <p class="my-1 text-sm opacity-30">
           {{ doc.publishedAt }}
         </p>
-        <article class="prose-base prose-pre:bg-black prose-img:mx-auto">
+        <article
+          class="prose-base prose-pre:bg-black prose-img:mx-auto prose-img:rounded prose-pre:overflow-x-scroll"
+        >
           <ContentRenderer :value="doc" />
         </article>
-        <section>
+        <section class="lg:px-[5vw]">
           <Giscus
             host="https://giscus.app"
             id="comments"
@@ -21,13 +23,15 @@
             reactions-enabled="0"
             emitMetadata="0"
             inputPosition="top"
-            theme="https://giscus.app/themes/custom_example.css"
+            theme=""
             lang="zh-TW"
             async
           />
         </section>
       </template>
-
+      <template #empty>
+        <h1>Testing Suspense</h1>
+      </template>
       <template #not-found>{{ navigateTo("/") }} </template>
     </ContentDoc>
   </main>

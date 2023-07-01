@@ -5,5 +5,8 @@
 </template>
 
 <script setup>
-useHead({ bodyAttrs: { class: "bg-blue-300 dark:bg-red-300" } });
+useHead({
+  htmlAttrs: { style: "scrollbar-gutter:stable" },
+  bodyAttrs: { class: "bg-blue-300 dark:bg-red-300" },
+});
 </script>

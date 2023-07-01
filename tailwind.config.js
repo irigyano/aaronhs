@@ -16,8 +16,8 @@ module.exports = {
       },
       keyframes: {
         "slide-in": {
-          "0%": { transform: "translateY(5%)", opacity: 0 },
-          "100%": { transform: "translateY(0%)", opacity: 1 },
+          "0%": { transform: "translateY(10px)", opacity: 0 },
+          "100%": { transform: "translateY(0px)", opacity: 1 },
         },
       },
       fontFamily: {
