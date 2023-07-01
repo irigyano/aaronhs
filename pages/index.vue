@@ -9,7 +9,7 @@
         )"
       >
         <NuxtLink
-          class="text-4xl font-semibold text-blue-500"
+          class="text-4xl font-semibold text-red-500 dark:text-blue-500"
           :key="link._path"
           :to="link._path"
         >
@@ -24,5 +24,5 @@
 </template>
 
 <script setup>
-useHead({ title: "Aaron Hsieh" });
+useHead({ title: "Look Back - Aaron Hsieh" });
 </script>

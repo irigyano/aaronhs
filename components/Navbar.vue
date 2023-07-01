@@ -1,6 +1,8 @@
 <template>
   <nav class="pt-4 mb-6">
-    <NuxtLink to="/" class="pl-4 text-2xl font-semibold text-blue-800"
+    <NuxtLink
+      to="/"
+      class="pl-4 text-2xl font-semibold text-orange-400 dark:text-blue-800"
       >Look Back</NuxtLink
     >
   </nav>

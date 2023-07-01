@@ -2,7 +2,9 @@
   <main class="animate-slide-in p-2">
     <ContentDoc>
       <template v-slot="{ doc }">
-        <h1 class="text-4xl font-semibold text-blue-500">{{ doc.title }}</h1>
+        <h1 class="text-4xl font-semibold text-red-500 dark:text-blue-500">
+          {{ doc.title }}
+        </h1>
         <p class="my-1 text-sm opacity-30">
           {{ doc.publishedAt }}
         </p>
@@ -11,7 +13,7 @@
         >
           <ContentRenderer :value="doc" />
         </article>
-        <section class="lg:px-[5vw]">
+        <section>
           <Giscus
             host="https://giscus.app"
             id="comments"
