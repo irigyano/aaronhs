@@ -5,6 +5,7 @@
       "---",
       "title: Hello h1",
       "publishedAt: $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
+      "description: p tag",
       "---",
       "",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
