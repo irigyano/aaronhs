@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   content: {
     navigation: {
-      fields: ["publishedAt"],
+      fields: ["publishedAt","description"],
     },
     highlight: {
       theme: "monokai",
