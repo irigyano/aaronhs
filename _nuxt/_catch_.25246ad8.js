@@ -1,0 +1,1 @@
+import{Q as n,u as r,P as t}from"./entry.29e79610.js";import{_ as e}from"./_plugin-vue_export-helper.c27b6911.js";const o={};function s(a,i){return n(("navigateTo"in a?a.navigateTo:r(t))("/"))}const f=e(o,[["render",s]]);export{f as default};
